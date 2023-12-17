@@ -1,0 +1,158 @@
+header{
+    background: url("../Assets/banner_bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+
+header .container .row{
+   
+    margin:130px 0;
+ 
+}
+.div-left {
+    margin-top: 50px;
+}
+
+.div-left  h3{
+    color: #e4d804;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div-left  h2 span , 
+    .div-left  h2 {
+    color: #fff;
+    font-size: 59px;
+    font-weight: bold;
+    margin-top: 18px;
+
+}
+
+.div-left  h2 span{
+color: #e4d804;
+}
+.details ul{
+    display: flex;
+padding: 0;
+margin-top: 20px;
+}
+  
+.details ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.details ul li span{
+display: inline-block;
+margin-right:  10px;
+}
+
+  ul li:first-child span:first-of-type ,
+  ul li:first-child span:last-of-type{
+    font-size: 12px;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+ul li:first-child span:first-of-type{
+   color: #000;
+   background-color: #fff;
+   font-weight: 400; 
+}
+
+ul li:first-child  span:last-of-type{
+    color: #fff;
+
+}
+
+ul li:last-child span svg{
+    color: #e4d804;
+}
+
+header .div-left button{
+    width: 200px;
+ border-radius: 40px;
+ color: #fff;
+ font-weight: 400;
+height: 60px;
+background-color: transparent;
+border: 1px solid #fff;
+margin-top: 25px;
+position: relative;
+overflow: hidden;
+z-index: 33;
+color: #fff;
+font-weight: 500;
+}
+
+header .div-left button svg{
+color: #e4d804;
+margin-right: 5px;
+}
+
+header .div-left button::before{
+content: '';
+position: absolute;
+z-index: -1;
+background-color: #e4d804;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+}
+header .div-left button:hover::before{
+width: 100%;
+transition: all 0.5s ease-in-out;
+
+}
+
+header .div-left button:hover svg{
+z-index: 9999;
+color: #000;
+}
+
+header .div-left button:hover {
+color: #000;
+}
+
+
+
+
+
+  /* The navigation menu links */
+  /* .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  } */
+/* 
+  .sidenav a:hover {
+    color: #f1f1f1;
+  } */
+  
+  /* Position and style the close button (top right corner) */
+  /* .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } */
+  
+
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */

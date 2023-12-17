@@ -1,0 +1,185 @@
+.MovieDetails{
+    /* border: 2px solid red; */
+    background-color: #111;
+    /* height: 100vh; */
+    color: #fff;
+}
+.detailsPage{
+    /* border:  2px solid #e4d804; */
+margin-top: 100px;
+    background-color: #22222243;
+    padding: 25px;
+}
+
+
+
+.detailsPage .Imagee img{
+width: 100%;
+height: 100%;
+}
+
+.detailsPage .ContentSec{
+    /* border: 2px solid  blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsPage .typess{
+    display: flex;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.Cinema{
+ margin-top: 10px;   
+}
+.detailsPage .typess p:not(:last-child){
+margin-right: 14px;
+border-right: 2px solid #808080;
+padding-right: 14px;
+}
+
+
+
+.sectionComments{
+    padding: 50px 0;
+}
+.sectionComments .SearchFooter textarea{
+width: 100%;
+height: 50px;
+background-color: #22222243;
+border: none;
+outline: none;
+color: #ffff;
+overflow-wrap:break-word;
+padding-top: 10px;
+padding-left: 20px;
+}
+.SearchFooter{
+    position: relative;
+
+}
+
+.Mybtnn{
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+ 
+}
+
+.Mybtn , .Mybtnn{
+    width: 160px;
+    height: 50px;
+ margin-top: 20px;
+ background-color: #e4d804;
+ color: #111;
+ border: none;
+ outline: none;
+ font-weight: 600;
+
+}
+.Mybtnn{
+    border-radius: 40px 0px 0px 40px;
+}
+
+.sectionComments .SearchFooter textarea::placeholder{
+padding-left: 20px;
+}
+
+.sectionComments .SearchFooter textarea:focus{
+outline: none;
+border: none;
+}
+
+
+.comment{
+    width: 100%;
+    background-color: #22222243;
+    margin-top: 40px;
+    padding: 10px 20px;
+    overflow-wrap: break-word;
+    position: relative;
+    cursor: pointer;
+}
+.comment svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 992px) {
+    .ContentSec .ContentSecCenter{
+        height: 100%;
+        width: 100%;
+        /* border: 2px solid #808080; */
+        padding-left: 50px;
+    }
+}
+
+.swiperBlig{
+    /* border: 2px solid #e4d804; */
+}
+
+
+.Posters{
+    padding: 50px 0;
+    margin-top: 40px;
+}
+.titleeBest{
+text-align: center;
+}
+
+
+/* Swiper  */
+
+
+.swiper {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    margin-top: 30px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+-webkit-box-reflect: below 1px  linear-gradient(transparent , transparent , #0002 , #0004);  
+}
+  
+.secSlider{
+    background-color: #0F1418;
+}
+
+.swal2-popup {
+    background-color: #222528;
+}
+
+.swal2-popup  .swal2-title , .swal2-popup .swal2-html-container{
+color: #fff ;
+}
+
+
+.swal2-popup  .swal2-icon {
+color: #d33;
+}
+
+@media screen and (max-width: 992px) {
+.detailsPage .Imagee{
+    
+/* border: 2px solid red; */
+margin-bottom: 35px;
+margin-left: auto;
+margin-right: auto;
+}
+
+}

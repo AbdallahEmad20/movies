@@ -1,0 +1,100 @@
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 !important;
+position: relative;
+}
+
+
+/* .MYIcon{
+  position: absolute;
+  z-index: 999999;
+  right: 20px;
+  font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+} */
+ .active{
+  color: #e4d804 !important;
+}
+.navbar .navbar-collapse a , 
+.navbar .navbar-collapse a:hover .active{
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.navbar .navbar-collapse a:hover{
+color: #e4d804;
+}
+.navbar .navbar-collapse a:hover .active{
+color: #e4d804;
+}
+.navbar .actionDiv svg:first-of-type{
+  color: #fff;
+  margin-right: 14px;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+
+.navbar .actionDiv svg:last-of-type{
+color: #e4d804;
+margin-right: 14px;
+
+}
+
+.actionDiv select{
+  background-color: transparent;
+  margin-right: 18px;
+  border: none;
+  color: #fff;
+  outline: none;
+
+}
+
+
+
+.actionDiv  button{
+width: 110px;
+height: 40px;
+color: #fff;
+border: 1px solid #e4d804;
+background-color: transparent;
+border-radius: 40px;
+}
+  
+.navbar   .navbar-toggler {
+  background-color: #e4d804;
+ 
+}
+
+.navbar .navbar-toggler:focus{
+  box-shadow: none  ;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+
+   .navbar .navbar-nav {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+  }
+  
+ .navbar .navbar-collapse {
+margin-left: auto;
+margin-right: auto;
+padding: 20px 0;
+}
+
+.actionDiv{
+  text-align: center;
+  margin-top: 13px;
+}
+}

@@ -1,0 +1,95 @@
+.cardd{
+    /* margin-top: 50px; */
+}
+.cardd .DivImage{
+    overflow: hidden;
+   height: 420px;
+}
+
+.cardd .DivImage img{
+    width: 100%;
+    height: 100%;
+    }
+
+.cardd .DivImage:hover{
+    animation: flash 0.3s ;
+
+}
+
+.contentDiv{
+    margin-top: 10px;
+}
+.contentDiv h4{
+    font-weight: bold;
+   font-size: 16px;
+   color: #e4d804;
+}
+
+.contentTwoDiv{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.cardd .contentDiv , .contentTwoDiv   {
+  
+    display: flex ;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.conIcons {
+    display: flex;
+    margin-top: 20px;
+
+}
+.conIcons div{
+display: flex;
+align-items:baseline;
+}
+
+.conIcons div svg{
+margin: 0px 5px;
+color: #e4d804;
+}
+
+.conIcons div p{
+   font-weight: 500;
+
+}
+.cardd p {
+    color: #fff;
+}
+.contentTwoDiv button{
+    border: 1px solid #fff;
+    background-color: transparent;
+ color: #fff;
+}
+
+@keyframes flash {
+    0%, 50%, 100% {
+       opacity: 1;
+    }
+    25%, 75% {
+       opacity: 0;
+    }
+ }
+
+ @media screen and ((max-width: 1199px) and (min-width :991px)) {
+
+    .contentDiv p{
+        font-size: 14px;
+    }
+    .contentDiv h4{
+        font-size: 13px;
+    }
+
+    .conIcons div svg{
+    font-size: 15px;
+        }
+        
+        .conIcons div p{
+           font-weight: 500;
+        font-size: 14px;
+        }
+    
+ }

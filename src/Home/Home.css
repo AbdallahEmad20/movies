@@ -1,0 +1,105 @@
+.sectopic{
+    background:url("../Assets/live_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+ 
+*{
+    box-sizing: border-box;
+}
+.sectopic .ImageDevv img{
+    width: 100%;
+    height: 100%;
+}
+.sectopicCon  p:first-of-type{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
+.sectopicCon h2{
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+}
+
+.sectopicCon  p:last-of-type{
+color: #333;
+font-weight: 500;
+line-height: 30px;
+margin-top: 25px ;
+}
+
+.sectopicCon .specialDiv{
+    display: flex;
+    align-items: center;
+}
+
+.sectopicCon .specialDiv h3:first-child{
+margin-right: 20px;
+}
+
+.sectopicCon .specialDiv h3{
+    font-size: 50px;
+    -webkit-text-stroke: 2px red ;
+    color: transparent;
+      -webkit-background-clip: text;
+}
+
+.sectopic  button{
+    width: 180px;
+ border-radius: 40px;
+ color: #fff;
+ font-weight: 400;
+height: 60px;
+background-color: #e4d804;
+border: 1px solid #fff;
+margin-top: 25px;
+position: relative;
+overflow: hidden;
+z-index: 33;
+color: #000;
+font-weight: 500;
+}
+
+.sectopic  button svg{
+color: #000;
+margin-right: 5px;
+}
+
+.addingThings{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.sectopicCon .devaia{
+    margin-left: 50px;
+}
+
+.BestMovies{
+    background-color: #1a252b;
+    padding: 30px 0;
+}
+.BestMovies  .titleeBest ,   .secSlider .titleeBest{
+    text-align: center;
+  
+  }
+  .BestMovies  .titleeBest{
+padding:50px 0;
+  }
+
+  .secSlider .titleeBest{
+    padding-top: 60px;
+  }
+  .titleeBest h5{
+color: #e4d804;
+font-weight: bold;
+}
+
+  .titleeBest h2{
+color: #fff;
+}
+

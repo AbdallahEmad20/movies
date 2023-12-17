@@ -1,0 +1,47 @@
+  .BestMovies{
+ background: url("../Assets/tv_series_bg.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+  }
+  
+  .slick-slide .cardd{
+   margin: 0 13px;
+   
+  }
+.slick-slide{
+  position: relative;
+  z-index: 99;
+}   
+
+.slick-prev::before, .slick-next::before{
+    color: #e4d804 ;
+    font-size: 45px;
+    }
+
+    .slick-prev , .slick-next {
+      position: absolute;
+      z-index: 999;
+    
+    }
+
+    .slick-prev{
+      left: 1px;
+    }
+
+    .slick-next{
+      right: 20px;
+    }
+    
+
+/* ========== */
+
+@media screen and (max-width: 576px) {
+    
+
+.slick-next{
+right: 30px;
+}
+}
+
+

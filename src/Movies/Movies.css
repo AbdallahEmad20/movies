@@ -1,0 +1,147 @@
+
+.Movies{
+    padding: 40px 0;
+    background-color: #0F1418 ;
+    background: url("../Assets/ucm_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 99;
+}
+.MyImageBAck{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.Movies::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #100e17;
+  opacity: .95;
+  z-index: -1; 
+}
+
+.Movies .container h5{
+    color: #e4d804;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Movies .container h2{
+color: #fff;
+font-weight: 600;
+
+}
+.MoviesTitle .row{
+margin: 40px 0;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.speak{
+  text-align: center;
+}
+
+.speak p{
+  color: #e4d804;
+  font-weight: bold;
+
+}
+
+.searchResult{
+    background-color:#212121c0;
+    color: #fff;
+    margin-top: 13px;
+}
+.searchTop   .searchTop  .searchaia  .result{
+ border-bottom: 1px solid #000;
+ padding: 10px ;
+
+}
+.result{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e4d804;
+    padding: 13px 0px 11px 7px;
+}
+
+.result img{
+    width: 40px;
+    height: 40px;
+}
+
+
+  .searchTop  .searchaia input{
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: #20212b;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+
+    .searchTop  .searchaia input::placeholder{
+padding-left: 10px;
+  }
+
+    .searchTop  .searchaia input:focus{
+outline: none;
+border: none;
+padding-left: 10px;
+border: 1px solid  #e4d804;
+  }
+
+  .result .movieLink{
+    text-decoration: none;
+     margin-left: 10px;
+     color: #fff;
+     font-size: 16px;
+    cursor: pointer;
+  }
+
+  .result .movieLink:hover{
+color: #e4d804;
+  }
+
+  .preloaderr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  } 
+  
+
+  .buttonss{
+    text-align: center;
+  margin-bottom: 40px;
+  }
+
+  .buttonss button{
+
+    width: 130px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: none;
+    background-color: #20212b;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .mybtn{
+    border: 2px solid #e4d804 !important;
+  }
+
+
+
+
